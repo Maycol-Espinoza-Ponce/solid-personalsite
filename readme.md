@@ -6,7 +6,7 @@ empty project with vite, typescript, tailwind, solidjs, and router
 
 1. Create an empty github repo
 
-2. Clone this repo to your computer
+2. Clone this template repo to your computer
 
 3. Open the repo in VSCode
 

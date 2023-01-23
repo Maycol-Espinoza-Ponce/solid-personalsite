@@ -8,7 +8,7 @@ empty project with vite, typescript, tailwind, solidjs, and router
 
 2. Clone this template repo to your computer
 
-3. Open the template repo in VSCode
+3. Open the cloned template repo in VSCode
 
 4. Open a terminal - confirm the terminal is in the clone of the repo
 

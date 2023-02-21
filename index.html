@@ -3,13 +3,60 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" /> <!--Template-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Maycol Espinoza</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"> <!-- Principal Tipo de letra usada en todo el BODY -->
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+  <link rel="stylesheet" href=""> <!--where to poi-->
+  <script defer src="js/app.js"></script>
+
 </head>
 
-<body class="text-white bg-black">
-  <div id="app"></div>
-  <script type="module" src="/src/main.tsx"></script>
+<body class="text-white bg-black"> <!--Template-->
+  <header id="topheader">
+  </header>
+  <div id="app"></div> <!--Template-->
+  <script type="module" src="/src/main.tsx"></script> <!--Template-->
+
+  <!-- <header id="topheader">
+</header> -->
+
+<div class="horizontal_padding vertical_padding">
+    <section class="profile">
+        <div class="profile_info">
+            <h1 class="profile_title">Hello, I'm <br /> Maycol Espinoza</h1>
+            <p class="profile_details">
+                I am a development student in DatagroveCR <br>
+    
+                I am passionate about software development. <br><br> Motivational quote:<br><br> "...what by grace I received, by grace I give." -Matthew 10:8 
+            </p>
+            <!--<button class="profile_btn">Download CV</button>-->
+        </div>
+        <span class="profile_img_section"> <!--Esto antes era un DIV pero lo cambie a SPAN para colocar mas facil la linea verde bajo la foto -->
+            <img class="profile_img" src="https://media.licdn.com/dms/image/D4E03AQEQjlhNGZzh5w/profile-displayphoto-shrink_800_800/0/1676474003185?e=2147483647&v=beta&t=Gjq7lT1Aid5aZY0K9AORm9r2e8XF_iFgZS_ZLPMQGDQ" alt="DEVELOPER PHOTO">
+            <div class="profile_img_line"></div> <!--Este DIV es para hacer una barra(rectangulo) debajo de la foto principal-->
+        </span> <!---->
+    </section>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="horizontal_padding vertical_padding">
+    <section class="skills"></section>
+    <h2 class=skills_title>SKILLS</h2>
+    <ul class="skills_list">
+        <li class="skills_skill">HTML Basic</li>
+        <li class="skills_skill">CSS Basic</li>
+        <li class="skills_skill">GitHub Basic</li>
+        <li class="skills_skill">SCRUM Basic</li>
+        <li class="skills_skill">SQL Basic</li>
+    </ul>
+</div>   
+  
 </body>
 
 </html>

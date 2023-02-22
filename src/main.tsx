@@ -34,15 +34,24 @@ const EditorPage = () => {
 function App() {
   return <>
     <nav>
-      <A class='p-2 hover:text-blue-600 text-blue-700' href="/about">About</A>
-      <A class='p-2 hover:text-blue-600 text-blue-700' href="/">Home</A>
-      <A class='p-2 hover:text-blue-600 text-blue-700' href="/editor">Editor</A>
+      <A class='p-2 hover:text-blue-600 text-blue-700' href="/">HOME</A>
+      <A class='p-2 hover:text-blue-600 text-blue-700' href="/about">ABOUT</A>
+      <A class='p-2 hover:text-blue-600 text-blue-700' href="/about">EXPERIENCE</A>
+      <A class='p-2 hover:text-blue-600 text-blue-700' href="/about">SOCIAL</A>
+      <A class='p-2 hover:text-blue-600 text-blue-700' href="/about">CONTACT</A>
+
+      {/* <A class='p-2 hover:text-blue-600 text-blue-700' href="/about">About</A>
+      <A class='p-2 hover:text-blue-600 text-blue-700' href="/editor">Editor</A> */}
     </nav>
 
     <Routes>
       <Route path="/" component={Home} />
       <Route path="/about" component={About} />
-      <Route path="/editor" component={EditorPage} />
+      <Route path="/experience" component={Experience} />
+      <Route path="/experience" component={Social} />
+      <Route path="/experience" component={Contact} />
+
+      {/* <Route path="/editor" component={EditorPage} /> */}
     </Routes>
   </>
 }

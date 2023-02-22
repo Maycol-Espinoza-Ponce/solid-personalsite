@@ -58,16 +58,16 @@ function App() {
 
 const NavBar = () => {
   return <div>
-    <a href="#" class="logo_little_photo">
+    <a href="#" class="">
             {/* <img height="50" width="50" src="https://media.licdn.com/dms/image/D4E03AQEQjlhNGZzh5w/profile-displayphoto-shrink_800_800/0/1676474003185?e=2147483647&v=beta&t=Gjq7lT1Aid5aZY0K9AORm9r2e8XF_iFgZS_ZLPMQGDQ" alt="Foto de Maycol Espinoza"> */}
-            <div class="logotype">
+            {/* <div class="logotype">
                 <p>Maycol Espinoza Ponce</p>
-            </div>
+            </div> */}
         </a>
         <button id="open_main_menu" aria-label="OPEN MENU">
             {/* <img class="menu_icon1" src="https://img.icons8.com/glyph-neue/256/xbox-menu.png" alt="Icono Open Menu"> */}
         </button> 
-        <ul id="main_menu" class='font-bold text-lg bg-slate-500 list-none inline-flex space-x-1 p-2 m-2 cursor-pointer w-full'> 
+        <ul id="main_menu" class='font-bold text-lg bg-slate-500 list-none inline-flex space-x-1 p-2 m-2 cursor-pointer w-full content-center'> 
         <button id="close_main_menu" aria-label="CLOSE MENU">
             {/* <img class="menu_icon2" src="https://img.icons8.com/sf-black/256/xbox-menu.png" alt="Icon Close Menu">    */}
         </button>

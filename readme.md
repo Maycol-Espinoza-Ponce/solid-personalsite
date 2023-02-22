@@ -19,3 +19,5 @@ empty project with vite, typescript, tailwind, solidjs, and router
 7. Run `git push --set-upstream origin main`
 
 8. Run `npm install`
+
+this is a test

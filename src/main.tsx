@@ -57,7 +57,7 @@ function App() {
 }
 
 const NavBar = () => {
-  return <div>
+  return <div class= "bg-lime-600 hover:bg-amber-500 hover:text-amber-300">
     <a href="#" class="">
             {/* <img height="50" width="50" src="https://media.licdn.com/dms/image/D4E03AQEQjlhNGZzh5w/profile-displayphoto-shrink_800_800/0/1676474003185?e=2147483647&v=beta&t=Gjq7lT1Aid5aZY0K9AORm9r2e8XF_iFgZS_ZLPMQGDQ" alt="Foto de Maycol Espinoza"> */}
             {/* <div class="logotype">

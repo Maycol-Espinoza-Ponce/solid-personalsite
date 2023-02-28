@@ -20,4 +20,3 @@ empty project with vite, typescript, tailwind, solidjs, and router
 
 8. Run `npm install`
 
-this is a test

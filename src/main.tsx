@@ -57,7 +57,7 @@ function App() {
 }
 
 const NavBar = () => {
-  return <div class= "bg-lime-600 hover:bg-amber-500 hover:text-amber-300">
+  return <div class= "bg-lime-600 hover:bg-amber-500 hover:text-">
     <a href="#" class="">
             {/* <img height="50" width="50" src="https://media.licdn.com/dms/image/D4E03AQEQjlhNGZzh5w/profile-displayphoto-shrink_800_800/0/1676474003185?e=2147483647&v=beta&t=Gjq7lT1Aid5aZY0K9AORm9r2e8XF_iFgZS_ZLPMQGDQ" alt="Foto de Maycol Espinoza"> */}
             {/* <div class="logotype">
@@ -78,6 +78,36 @@ const NavBar = () => {
             <li class='hover:text-green-500'><a href="./contact.html">CONTACT</a></li>
         </ul>
   </div>
+
+
+
+
+/////////////////////////////////////////////////// JAVASCRIPT PRACTICE of freeCodeCamp and Sololearn ///////////////////////////////////////////////////
+// Obtén el botón por su ID
+const myButton = document.getElementById('my-button') as HTMLButtonElement;
+
+// Agrega el event listener
+myButton.addEventListener('click', (event: MouseEvent) => {
+  console.log('Haz clic en el botón!');
+});
+
+
+<script>
+  const button = document.querySelector('button[aria-controls="mobile-menu"]');
+  const menu = document.querySelector('#mobile-menu');
+
+  button.addEventListener('click', () => {
+    // Cambia el icono del botón
+    button.querySelector('svg:first-child').classList.toggle('hidden');
+    button.querySelector('svg:last-child').classList.toggle('hidden');
+
+    // Muestra u oculta el menú móvil
+    menu.classList.toggle('hidden');
+    menu.classList.toggle('block');
+  });
+</script>
+
+/////////////////////////////////////////////////// END JAVASCRIPT PRACTICE of freeCodeCamp and Sololearn ///////////////////////////////////////////////
 
 }
 render(() => <NavBar />, document.getElementById("topheader")!);

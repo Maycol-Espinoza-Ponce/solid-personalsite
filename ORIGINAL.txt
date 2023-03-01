@@ -83,3 +83,248 @@ render(() => <Router><App /></Router>, document.getElementById("app")!);
 
 
 --------------------------------------------------------------INDEX ----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+<header>
+    <nav class="bg-gray-700">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div class="relative flex items-center justify-between h-16">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Botón del menú móvil -->
+              <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+    
+    
+    
+                  <!-- Icono del menú móvil -->
+                  <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                  <!-- Icono de cerrar el menú móvil -->
+                  <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+    
+                  
+                  
+    
+    
+                <!-- Abre y cierra el menú móvil cuando se hace clic -->
+              </button>
+            </div>
+            <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="flex-shrink-0">
+                <!-- Logo de la barra de navegación -->
+              </div>
+              <div class="hidden sm:block sm:ml-6">
+                <div class="flex space-x-4">
+                  <!-- Enlaces de la barra de navegación -->
+                  <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">HOME</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">ABOUT</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">EXPERIENCE</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">SOCIAL</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">CONTACT</a>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Menú móvil, oculto por defecto -->
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="px-2 pt-2 pb-3 space-y-1">
+            <!-- Enlaces del menú móvil -->
+                  <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">HOME</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">ABOUT</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">EXPERIENCE</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">SOCIAL</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">CONTACT</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+      
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    
+
+<body class="text-white bg-black"> <!--Template-->
+  <header id="topheader">
+  </header>
+  <div id="app"></div> <!--Template-->
+  <script type="module" src="/src/main.tsx"></script> <!--Template-->
+
+<div class="object-center text-4xl flex justify-start">
+    <section class="object-center">
+        <div class="">
+            <h1 class="profile_title text-center">Hello, I'm<br /> Maycol Espinoza</h1>
+            <p class="profile_details text-center">
+                I am a development student in DatagroveCR <br>
+    
+                I am passionate about software development. <br><br> Motivational quote:<br><br> "...what by grace I received, by grace I give." -Matthew 10:8 
+            </p>
+        </div>
+
+        <div class="float-right ml-4">
+            <img src="photo.jpg" alt="DEVELOPER PHOTO" class="">
+        </div>
+
+        <div class="flex flex-row">
+            <div class="flex-1"></div>
+            <div>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full object-center text-3xl">Download CV</button>
+            </div>
+            <div class="flex-1"></div>
+        </div>
+    </section>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  
+<div class="text-center text-4xl">
+    <section class="skills"></section>
+    <h2 class=skills_title>SKILLS</h2>
+    <ul class="skills_list">
+        <li class="skills_skill">HTML Basic</li>
+        <li class="skills_skill">CSS Basic</li>
+        <li class="skills_skill">GitHub Basic</li>
+        <li class="skills_skill">SCRUM Basic</li>
+        <li class="skills_skill">SQL Basic</li>
+        <li class="skills_skill">Tailwind Basic</li>
+        <li class="skills_skill">JavaScript Basic</li>
+        <li class="skills_skill">TypeScript Basic</li>
+    </ul>
+</div>   
+
+
+
+
+
+
+    // Agregamos el elemento a al body para evitar un error en Firefox
+document.body.appendChild(a);
+a.click();
+document.body.removeChild(a);
+
+// Liberamos la memoria
+URL.revokeObjectURL(url);
+
+
+
+
+
+
+---------------------------------------THIS CODE IS TO CREATE FUNCION OF DOWNLOAD BOTTON--------------------------------
+const downloadBtn = document.getElementById('download-btn') as HTMLButtonElement;
+
+downloadBtn.addEventListener('click', () => {
+  const filePath = '/path/to/my/file.pdf'; // Aquí debes poner la ruta al archivo que quieres descargar
+  const fileName = 'file.pdf'; // Aquí debes poner el nombre del archivo que quieres descargar
+
+  fetch(filePath)
+    .then(response => response.blob())
+    .then(blob => {
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+
+      a.download = fileName;
+
+      a.dispatchEvent(new MouseEvent('click'));
+    });
+});
+----------------------------------------------------END PDF DOWNLOAD----------------------------------------------------------
+
+
+
+ <nav class="bg-gray-700">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div class="relative flex items-center justify-between h-16">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Botón del menú móvil -->
+              <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+    
+    
+    
+                  <!-- Icono del menú móvil -->
+                  <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                  <!-- Icono de cerrar el menú móvil -->
+                  <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+    
+                  
+                  
+    
+    
+                <!-- Abre y cierra el menú móvil cuando se hace clic -->
+              </button>
+            </div>
+            <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+              <div class="flex-shrink-0">
+                <!-- Logo de la barra de navegación -->
+              </div>
+              <div class="hidden sm:block sm:ml-6">
+                <div class="flex space-x-4">
+                  <!-- Enlaces de la barra de navegación -->
+                  <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">HOME</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">ABOUT</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">EXPERIENCE</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">SOCIAL</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">CONTACT</a>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Menú móvil, oculto por defecto -->
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="px-2 pt-2 pb-3 space-y-1">
+            <!-- Enlaces del menú móvil -->
+                  <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">HOME</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">ABOUT</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">EXPERIENCE</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">SOCIAL</a>
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">CONTACT</a>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+---------------------------------------COPIO Y PEGO EN EL BODY SOLO PARA SABER QUE ESTA DENTRO DE UN CONTENEDOR DENTRO DEL BODY Y LUEGO LO ELIMINO--------------------------------
+
+<section class="hero container bg-gradient-to-r from-blue-500 to-indigo-500 text-white">
+  <div class="flex flex-col items-center justify-center h-full">
+    <h1 class="text-5xl font-bold mb-4">Título de la sección</h1>
+    <p class="text-xl mb-8">Descripción de la sección</p>
+    <a href="#" class="bg-white text-blue-500 py-3 px-6 rounded-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Botón de acción</a>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

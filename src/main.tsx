@@ -31,14 +31,22 @@ downloadBtn.addEventListener('click', () => {
 const button = document.querySelector('button[aria-controls="mobile-menu"]');
 const menu = document.querySelector('#mobile-menu');
 
-    button.addEventListener('click', () => {
+    button?.addEventListener('click', () => {
+        
     // Cambia el icono del botón
-    button.querySelector('svg:first-child').classList.toggle('hidden');
-    button.querySelector('svg:last-child').classList.toggle('hidden');
+    button.querySelector('svg:first-child')?.classList.toggle('hidden');
+    button.querySelector('svg:last-child')?.classList.toggle('hidden');
 
-    menu.classList.toggle('hidden');
-    menu.classList.toggle('block');
+    menu?.classList.toggle('hidden');
+    menu?.classList.toggle('block');
 });
 
 
   
+/* error null 
+2 caminos
+1. ! no es nulo 
+2. ? puede que no sea nulo
+
+probar cada uno, en caso de que no se vaya el error
+*/

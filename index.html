@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" /> <!--Template-->
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Maycol Espinoza</title>
@@ -13,8 +13,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"> <!-- Principal Tipo de letra usada en todo el BODY -->
  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
-  <link rel="stylesheet" href=""> <!--where to point-->
-  <script defer src=""></script>  <!--where to point-->
+  <link rel="stylesheet" href="">
+  <script defer src=""></script>
 
 </head>
 
@@ -25,7 +25,11 @@
     <script type="module" src="/src/main.tsx"></script> <!--Template-->
     
 <header>
-    <nav class="bg-gray-700">
+    <nav class="bg-gray-700 flex justify-between items-center"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+       <!-- <div class="logo p-2">-->
+            <!--<img src="./photo.jpg" alt="FOTO COMO LOGO" width="50">--><!--IMAGEN LOGO-->
+        <!--</div>-->
+
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
           <div class="relative flex items-center justify-between h-16">
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -58,6 +62,9 @@
               <div class="hidden sm:block sm:ml-6">
                 <div class="flex space-x-4">
                   <!-- Enlaces de la barra de navegación -->
+                  <!--<ul>
+                    <li>AQUI ES DONDE VAN LAS LISTAS</li>
+                  </ul>-->
                   <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">HOME</a>
                   <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">ABOUT</a>
                   <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">EXPERIENCE</a>
@@ -96,15 +103,15 @@
                 I am passionate about software development. <br><br> Motivational quote:<br><br> "...what by grace I received, by grace I give." -Matthew 10:8 
             </p>
         </div>
-        
     </section>
 </div>
 
-<div class="">
-    <img class="hero container max-w-screen-lg mx-auto text-center pb-10" src="photo.jpg" alt="DEVELOPER PHOTO">
-    <div class=""></div>
+
+<div class="flex items-center justify-center">
+    <img class="w-60 h-65" src="photo.jpg" alt="DEVELOPER PHOTO">
     <!-- <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full object-center">Download CV</button> -->
 </div>
+
 <div class="flex flex-row">
     <div class="flex-1"></div>
     <div>
@@ -122,7 +129,6 @@
 <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
   
 <div class="text-center text-4xl">
-    <section class="hero container"></section>
     <h2 class="mt-6 mb-6">SKILLS</h2>
     <ul class="flex-wrap justify-center flex space-x-4">
         <li class="border rounded p-2 m-3">HTML Basic</li>
